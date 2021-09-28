@@ -1,0 +1,13 @@
+Bug in sqllocaldb.exe.
+
+When SQL Server Express 2016 13.1 is updated a registry key remains at version 13.0.
+
+This causes the "Windows API call "RegGetValueW" returned error code: 0." error.
+
+The fix:
+
+Change the 
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SQL Server Local DB\Installed Versions\13.0
+
+to 
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SQL Server Local DB\Installed Versions\13.1
