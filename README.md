@@ -1,7 +1,10 @@
 # SQL Server Data Tools for Visual Studio
-This is the repository for the LinkedIn Learning course `SQL Server Data Tools for Visual Studio`. The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course SQL Server Data Tools for Visual Studio. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
+![SQL Server Data Tools for Visual Studio][lil-thumbnail-url] 
+
+Data and databases are an important component in most applications. While developers have access to a wide choice of data sources, Microsoft SQL Server remains a popular relational database choice. In this course, Walt Ritscher looks at the Visual Studio tooling available for creating, modifying, and using SQL Server databases. He shows how to connect to databases and work with data on enterprise servers, in the Azure cloud, and even to the special LocalDB developer databases included in Visual Studio. With the Visual Studio tools, developers can perform necessary tasks without needing the admin-focused SQL Server Management tool on their developer computer. Essentially, Visual Studio removes unnecessary features like admin tools, and focuses on tools that are useful for developers, like database and schema comparison tools. Join Walt in this course to learn to develop, build, test, and publish your database from a source-controlled project, just like you develop your application code.
+
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
@@ -20,15 +23,16 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
 
+### Instructor
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+Walt Ritscher 
+                            
+Senior Staff Author
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+                            
 
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/walt-ritscher).
+
+[lil-course-url]: https://www.linkedin.com/learning/sql-server-data-tools-for-visual-studio
+[lil-thumbnail-url]: https://cdn.lynda.com/course/2896815/2896815-1637001047724-16x9.jpg
